@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A290ABE2-B3FD-70EE-87F6-7305FF834314" name="klijent">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>66D0500D-A0B8-402F-A06C-31240B9FF768</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5DA16CD3-87AB-E5A7-6097-272F7D20F14D">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>10F3E8D9-A157-B194-9ED5-F9B28391EE55</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="7B900038-6DD0-40B6-0C22-9E8CEA1A6758">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>BECB2555-147D-8984-64C2-B8E8A571E675</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prz" id="4D17CFB0-9543-ABD4-5787-945BC3235398">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>E55562DB-DD0E-FFC0-0109-B2E50F585BC1</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel" id="0C972BDA-B27E-636D-C7C3-D791BAF1D999">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>C29F7277-680B-ABE9-58AF-1D0218BDA9D9</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E90FE2AC-83C1-2E7B-F87F-5A75DA48FEEB" name="klijent pk">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>4CC94DCF-DDA1-1F09-76AE-76F9F9947D05</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DA16CD3-87AB-E5A7-6097-272F7D20F14D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

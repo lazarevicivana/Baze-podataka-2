@@ -1,0 +1,12 @@
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (1, 70, 'Wal-Mart Stores Inc', 'Potrosna', 'Wax', 1, 2);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (2, 80, 'Qualitest Pharmaceuticals', 'Potrosna', 'Strips', 1, 14);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (3, 90, 'ADBIOTECH CO., LTD.', 'Potrosna', 'Lipstick', 1, 2);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (4, 8, 'REMEDYREPACK INC.', 'Potrosna', 'Creame', 2, 10);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (5, 8, 'St. Marys Medical Park Pharmacy', 'Potrosna', 'Foundation', 2, 10);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (6, 2, 'Ranbaxy Laboratories Inc.', 'Uredjaj', 'Solarium', 3, 12);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (7,4, 'Aidarex Pharmaceuticals LLC', 'Uredjaj', 'Mirror', 3, 16);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (8, 8, 'Aurobindo Pharma Limited', 'Uredjaj', 'Tweezers', 3, 12);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (9, 8, 'Uriel Pharmacy Inc.', 'Potrosna', 'Mascara', 5, 26);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (10, 8, 'REMEDYREPACK INC.', 'Potrosna', 'Hialuron', 5, 40);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (11, 3, 'Qualitest Pharmaceuticals', 'Potrosna', 'Laser', 4, 4);
+insert into oprema (id, kol, proiz, tip, naziv, mbf, menadzer_mbr) values (12, 4, 'Cardinal Health', 'Potrosna', 'Needle', 4, 36);

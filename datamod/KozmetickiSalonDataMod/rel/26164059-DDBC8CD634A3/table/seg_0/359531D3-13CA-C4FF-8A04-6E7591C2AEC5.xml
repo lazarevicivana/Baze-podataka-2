@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="359531D3-13CA-C4FF-8A04-6E7591C2AEC5" name="kozmeticki_salon">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>5A017AE2-2B3F-4D4F-33FE-0995DC5DBAD0</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbf" id="A2D16EC0-452C-8D2C-4772-7EFD2CC01501">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>F9849B83-2049-A325-8310-3376449604DE</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pib" id="583248C3-1AF7-F895-35BA-4D28B3F877DE">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>ECE279FA-710B-0A42-71AA-2B4739F8BEA9</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="4F11F348-36DE-CB0A-935A-F2D5EE8BF1E8">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>74C51288-BB17-B808-5444-1C9F719DD2E7</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa_id" id="E839F7A5-A7C7-2E6E-52C9-9BAB3C902DB5">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>FA14DB04-0711-4E67-7746-C0EF699BF6E5</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="256A4621-4BED-2555-7A12-9AB79A61E7B7" referredColumn="83CFACD5-1A0B-B377-E4F4-109124F44509"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA2D0376-73F8-61C3-DE50-5D99AA022EA5" name="kozmeticki_salon_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>CE55A8F4-C2C0-F6CE-6723-3D7D595B588E</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2D16EC0-452C-8D2C-4772-7EFD2CC01501"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2748C393-5F22-34A8-BA9E-6BDB9A35266B" name="kozmeticki_salon_adresa_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>9F99DA80-58A1-9CD4-0019-AFF64F9E213B</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E839F7A5-A7C7-2E6E-52C9-9BAB3C902DB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

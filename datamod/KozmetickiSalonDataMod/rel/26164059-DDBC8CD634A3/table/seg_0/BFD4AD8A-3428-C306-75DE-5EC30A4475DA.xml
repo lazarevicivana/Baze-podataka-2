@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFD4AD8A-3428-C306-75DE-5EC30A4475DA" name="potrosna">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>C098BEF8-9105-7E06-433B-2DE09EC56629</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="12952D2B-42AC-0067-4CEE-7538E7FFC18D">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>3977B645-290C-E7DC-5716-29E6585B0F69</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A06183E5-2DE0-1559-12D9-E0EBD7D91022" referredColumn="5C08897E-B154-61E3-C1A8-C832F50D7CF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7303D797-439C-E179-146A-C1A352219C95" name="potrosna_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>38BF46FC-145F-15FA-DE65-4B3C88499663</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12952D2B-42AC-0067-4CEE-7538E7FFC18D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F4AB025-4DCE-FB5B-D9A1-06A5EDED386E" name="potrosna_oprema_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>01F6AEDE-827E-2F35-9EB2-BE58E47A00D2</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12952D2B-42AC-0067-4CEE-7538E7FFC18D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

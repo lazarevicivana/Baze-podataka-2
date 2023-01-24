@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22E7F889-6740-304B-97ED-DF146DF59522" containerWithKeyObject="08B7697B-81FD-A3CC-BF8D-7AD5493D3713" localFKIndex="DE08CD3D-94E5-1966-7EED-BDF5189C56DA" name="oprema_menadzer_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>3EA5A48D-3488-1287-3171-9DB9E73B647C</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<referredTableLongName>menadzer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4D64A53-2DE1-AF03-59B0-EDEEFFE68DC5</referredTableID>
+<keyObject>D9032700-12A8-09CE-B924-5560F6A1BB42</keyObject>
+<referredKeyID>D9032700-12A8-09CE-B924-5560F6A1BB42</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>mbr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

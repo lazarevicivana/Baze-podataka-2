@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7736824-1D76-568F-73CB-07F9B6DEB3C4" containerWithKeyObject="A6613AF0-CAB6-2104-6755-E7EAC53B72CE" localFKIndex="DE4DE43C-2E54-C1BA-D47D-899AC59530CA" name="radnik_kozmeticki_salon_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>7042F71F-70D7-88BB-839F-66F07E47EFC5</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<referredTableLongName>kozmeticki_salon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>359531D3-13CA-C4FF-8A04-6E7591C2AEC5</referredTableID>
+<keyObject>BA2D0376-73F8-61C3-DE50-5D99AA022EA5</keyObject>
+<referredKeyID>BA2D0376-73F8-61C3-DE50-5D99AA022EA5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>mbf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

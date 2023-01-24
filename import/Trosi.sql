@@ -1,0 +1,16 @@
+insert into trosi (potrosna_id, termin_id, kolpo) values (1, 1, 1);
+insert into trosi (potrosna_id, termin_id, kolpo) values (2, 2, 3);
+insert into trosi (potrosna_id, termin_id, kolpo) values (3, 3, 1);
+insert into trosi (potrosna_id, termin_id, kolpo) values (4,4, 0);
+insert into trosi (potrosna_id, termin_id, kolpo) values (5, 5, 1);
+insert into trosi (potrosna_id, termin_id, kolpo) values (9, 6, 3);
+insert into trosi (potrosna_id, termin_id, kolpo) values (10, 7, 4);
+insert into trosi (potrosna_id, termin_id, kolpo) values (1, 10, 3);
+insert into trosi (potrosna_id, termin_id, kolpo) values (2, 11, 3);
+insert into trosi (potrosna_id, termin_id, kolpo) values (3, 12, 4);
+insert into trosi (potrosna_id, termin_id, kolpo) values (4, 13, 2);
+insert into trosi (potrosna_id, termin_id, kolpo) values (5, 14, 1);
+insert into trosi (potrosna_id, termin_id, kolpo) values (9, 15, 1);
+insert into trosi (potrosna_id, termin_id, kolpo) values (10, 16, 1);
+insert into trosi (potrosna_id, termin_id, kolpo) values (1, 19, 3);
+insert into trosi (potrosna_id, termin_id, kolpo) values (2, 20, 2);

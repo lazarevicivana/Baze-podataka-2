@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A429AC6A-FF9E-82AB-71D5-CD621C980DDC" name="cena">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>C9E78448-F715-5608-3360-2328B495B2D6</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E4B5FEEA-7F35-58B6-F451-96C2DC8D0968">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>D4464AB5-14BB-4600-94DA-9F88F5C7BF94</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenausl" id="D1E3021E-53CF-386D-3511-01965915E360">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>1FCC86A8-8B9B-58E2-D785-E2DC5B4E233A</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenovnik_id" id="63867B5C-A874-7805-66A2-DE5A56CE2114">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>0BEB69D6-3CA1-309D-9D12-F512CD18EBC0</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51745ADE-2341-FA56-7296-3AD8321D9680" referredColumn="AF60956A-D501-79C0-038F-CA20DEC391A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3B276A3-AB7E-006D-8FC9-3675F5226A4C" name="cena_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>7FB9B9A8-C540-9B2F-2034-7B670CA39E70</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B5FEEA-7F35-58B6-F451-96C2DC8D0968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72CF34F3-4148-3747-437B-CC60F6560D3F" name="cena_cenovnik_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>0FC6589B-B6AF-27A6-1B27-94F9513CD7EB</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63867B5C-A874-7805-66A2-DE5A56CE2114"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

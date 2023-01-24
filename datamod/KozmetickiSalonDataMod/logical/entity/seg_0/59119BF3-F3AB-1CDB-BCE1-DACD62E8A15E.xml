@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59119BF3-F3AB-1CDB-BCE1-DACD62E8A15E" name="kozmeticar">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>E94600DF-EC38-C5B8-B9F0-C37D764D3AC9</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8FC2A4C5-AFB9-87FC-C1A1-8B7808DA8915</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66A50CB7-00A9-4999-001C-85DE1527E51D" name="kozmeticar pk">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>7AAE644A-DB7F-3110-FACC-3052F901DD37</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

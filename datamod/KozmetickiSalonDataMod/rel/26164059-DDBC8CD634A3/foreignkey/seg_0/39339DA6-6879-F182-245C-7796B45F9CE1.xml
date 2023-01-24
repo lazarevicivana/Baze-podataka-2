@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39339DA6-6879-F182-245C-7796B45F9CE1" containerWithKeyObject="49715AAE-8BA5-1BEC-933A-A0ABB8FAA45D" localFKIndex="F6EB5AA9-AA1D-AF43-C6F4-87E250E336F3" name="uredjaj_oprema_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>16A1F138-04C1-6CD9-F0F7-E1FA362A6D6E</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<referredTableLongName>oprema</referredTableLongName>
+<arc>00AA46F9-A227-D8A7-A879-F5AF1C2F7BD8</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08B7697B-81FD-A3CC-BF8D-7AD5493D3713</referredTableID>
+<keyObject>4F02C87A-C154-11A9-18EE-537548448099</keyObject>
+<referredKeyID>4F02C87A-C154-11A9-18EE-537548448099</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>uredjaj</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6613AF0-CAB6-2104-6755-E7EAC53B72CE" name="radnik">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>8FC2A4C5-AFB9-87FC-C1A1-8B7808DA8915</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="51775BFF-DD54-A58D-08AC-33E6767AF61E">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>1956219E-7B53-3711-959E-76EC771BEE86</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="3D83C1FB-B65C-93B8-6CAA-F25D8D1A3A1F">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>7537F96A-71A1-5487-629E-CA6600F969CE</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prz" id="8AA561AD-AE33-5949-AA64-45115EE9E019">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>6FE79FD3-03A0-4663-AFF4-04DC9EAD9B37</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="C19A911A-B349-8B8C-1D4A-B242D0B775BD">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>2D1B0FF5-F706-C112-3149-AFBFE84CB49F</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kozmeticki_salon_mbf" id="D818A1F1-AEB0-D221-C471-6F64918396C0">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>037BE658-FF37-B772-76B4-6E2BC4A591E4</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7736824-1D76-568F-73CB-07F9B6DEB3C4" referredColumn="A2D16EC0-452C-8D2C-4772-7EFD2CC01501"/>
+</associations>
+</Column>
+<Column name="zan" id="D06D5DB6-8C34-D079-3AC0-66319E4536C4">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>0CE672F3-181F-8BF3-B904-83B5CD6E1823</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<constraintName>CH_INH_radnik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<domain>74D8117C-297D-4FD0-2165-71E7E7E63E85</domain>
+<listOfValues>
+<valueDef value="kozmeticar" description="entity kozmeticar"/>
+<valueDef value="menadzer" description="entity menadzer"/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="adresa_id" id="FFD089AD-C5E4-AF03-E5DE-E584C4C3BD39">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>3892598C-863A-4788-EB01-09EB71A8E22B</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1818F97-AAB1-AD71-FB2D-9EFB897DA47F" referredColumn="83CFACD5-1A0B-B377-E4F4-109124F44509"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81DBDE4E-E126-DE7F-1B21-98D4DA106CC4" name="radnik_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>388C7BEE-12E8-9C1A-2CA4-8F8D22B08701</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51775BFF-DD54-A58D-08AC-33E6767AF61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE4DE43C-2E54-C1BA-D47D-899AC59530CA" name="radnik_kozmeticki_salon_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>7042F71F-70D7-88BB-839F-66F07E47EFC5</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D818A1F1-AEB0-D221-C471-6F64918396C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD16A54E-CAAD-22CC-67C9-C2AA196FD730" name="radnik_adresa_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>F0A1F0A6-F994-09D4-74C3-92878E19D721</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD089AD-C5E4-AF03-E5DE-E584C4C3BD39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1202AAA5-EB17-2DAA-D7F3-C90F001D47ED" containerWithKeyObject="7712B904-FC20-C9B7-0808-FCC210168E2E" localFKIndex="FCA0FA5F-2E31-0721-EF0C-F41301B7ABD7" name="kozmeticar_radnik_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>77084411-8A6B-AE38-630E-8BE92727BDDE</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<referredTableLongName>radnik</referredTableLongName>
+<arc>8BFDBE88-6B82-8D77-448E-CFB88E8EC232</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6613AF0-CAB6-2104-6755-E7EAC53B72CE</referredTableID>
+<keyObject>81DBDE4E-E126-DE7F-1B21-98D4DA106CC4</keyObject>
+<referredKeyID>81DBDE4E-E126-DE7F-1B21-98D4DA106CC4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mbr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>kozmeticar</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

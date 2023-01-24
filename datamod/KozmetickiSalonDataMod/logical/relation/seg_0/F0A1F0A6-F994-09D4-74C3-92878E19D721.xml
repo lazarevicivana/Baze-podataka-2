@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zivi" directorySegmentName="seg_0" id="F0A1F0A6-F994-09D4-74C3-92878E19D721">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:53 UTC</createdTime>
+<generatorID>0D9DFD5A-0AF5-E206-5227-A4DEAAE73EEA</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<sourcePk>E433D318-4C2E-E131-DA79-C3E426846019</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E6156CFA-9F49-C1E2-1CB8-0253E404B12B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8FC2A4C5-AFB9-87FC-C1A1-8B7808DA8915</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFAA2039-EE06-EB41-3557-C67B231F4F87" name="usluga">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:53 UTC</createdTime>
+<generatorID>9EE35D42-443E-55D3-9269-6C698D5C4566</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B1B2E9FA-33ED-B097-3232-A8C23BC16B4E">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:53 UTC</createdTime>
+<generatorID>11CED656-F39A-D146-1783-38E8910310C3</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="030BA6E2-BFE6-8EED-290C-01AF376A545B">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:53 UTC</createdTime>
+<generatorID>16902DA6-D93E-652C-B903-A0DA1271809E</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFCA8329-6CDE-2257-575B-13CA41FCC4CB" name="usluga pk">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:53 UTC</createdTime>
+<generatorID>F03F1AE0-6F79-9A6C-E390-6D0CE8A27200</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1B2E9FA-33ED-B097-3232-A8C23BC16B4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="imaCenu" directorySegmentName="seg_0" id="7B3CA331-6FA8-64C3-A130-F7E2ABF333E3">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:23:01 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CFAA2039-EE06-EB41-3557-C67B231F4F87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9E78448-F715-5608-3360-2328B495B2D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

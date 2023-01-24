@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6156CFA-9F49-C1E2-1CB8-0253E404B12B" name="adresa">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>A8665778-C5A7-05C2-C73F-8861143CB012</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B5AD663C-905E-7791-5280-21C416E3604B">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>70AD81D4-AAD5-6436-5EEF-07C89FC2E602</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grad" id="3821FBFC-0D5C-1A03-0B8C-4FF6FE244783">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>543B54F2-6CF7-5BC4-0A40-8EAE5D98C5AA</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="240B81D9-0512-142F-F04D-2A74168EB84D">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>6D07F08D-C77E-74BE-1913-B2B96B8E7AF5</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj" id="073594A8-6BC1-A8DA-E5A9-649DC8353263">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>926D0834-D447-3D8D-C309-740F10924D99</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drzava" id="E0112249-5E21-56E1-19AB-52D790A9DE5D">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>9EF8AC4D-17D6-2544-4269-ADD7C605B09A</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E433D318-4C2E-E131-DA79-C3E426846019" name="adresa pk">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:52 UTC</createdTime>
+<generatorID>C60C1BDE-BAC8-7B64-9DF3-67956C725B04</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5AD663C-905E-7791-5280-21C416E3604B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

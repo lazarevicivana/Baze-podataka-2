@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="oprema_kozmeticki_salon_fk" directorySegmentName="seg_0" id="E0CEB79C-BA2B-4FDB-E5F7-D02729BB8096">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:53 UTC</createdTime>
+<generatorID>8EE8B9FC-6364-2AA0-7AD2-D45FDA8854D0</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<sourcePk>CE55A8F4-C2C0-F6CE-6723-3D7D595B588E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A017AE2-2B3F-4D4F-33FE-0995DC5DBAD0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DD07D2D-71CE-F96E-8CE2-61B4A108D2DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

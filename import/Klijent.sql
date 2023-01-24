@@ -1,0 +1,10 @@
+insert into klijent (id, ime, prz, tel) values (1, 'Sue', 'Petronis', '752-517-2278');
+insert into klijent (id, ime, prz, tel) values (2, 'Ainslee', 'McKomb', '989-857-7480');
+insert into klijent (id, ime, prz, tel) values (3, 'Goldi', 'Morais', '930-631-8612');
+insert into klijent (id, ime, prz, tel) values (4, 'Lillian', 'Ridout', '210-500-7217');
+insert into klijent (id, ime, prz, tel) values (5, 'Verla', 'Ailward', '461-295-9783');
+insert into klijent (id, ime, prz, tel) values (6, 'Deedee', 'Hovel', '894-354-1115');
+insert into klijent (id, ime, prz, tel) values (7, 'Sascha', 'Colebeck', '162-558-2644');
+insert into klijent (id, ime, prz, tel) values (8, 'Pris', 'Rogerson', '848-519-6655');
+insert into klijent (id, ime, prz, tel) values (9, 'Glyn', 'Linstead', '870-242-4684');
+insert into klijent (id, ime, prz, tel) values (10, 'Manya', 'Hollows', '486-412-2063');

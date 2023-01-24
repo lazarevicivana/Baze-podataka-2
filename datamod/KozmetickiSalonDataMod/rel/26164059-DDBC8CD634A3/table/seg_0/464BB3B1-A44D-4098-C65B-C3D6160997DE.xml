@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="464BB3B1-A44D-4098-C65B-C3D6160997DE" name="imaCenu">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usluga_id" id="32B4C875-876F-69CA-4106-DE46E56DA777">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64114C52-DFAB-830B-D05F-1E78B22E7E2D" referredColumn="0A96B3CB-1A29-59AE-74DB-348CA9270CC8"/>
+</associations>
+</Column>
+<Column name="cena_id" id="62610CE3-5EBD-A8E4-E1F5-F3D734513BA8">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDEA1F81-2160-0FD7-3CDE-5ED25BE408BE" referredColumn="E4B5FEEA-7F35-58B6-F451-96C2DC8D0968"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B51AA72A-F480-B661-058A-22F8154E89D2" name="imaCenu_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B4C875-876F-69CA-4106-DE46E56DA777"/>
+<colUsage columnID="62610CE3-5EBD-A8E4-E1F5-F3D734513BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D00DC47-E57D-F5C8-AA05-5BF7FC96D912" name="imaCenu_usluga_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>7B3CA331-6FA8-64C3-A130-F7E2ABF333E3</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B4C875-876F-69CA-4106-DE46E56DA777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD73D44D-8F42-DC0B-F605-B5CDA511BA44" name="imaCenu_cena_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>7B3CA331-6FA8-64C3-A130-F7E2ABF333E3</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62610CE3-5EBD-A8E4-E1F5-F3D734513BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

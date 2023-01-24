@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4D64A53-2DE1-AF03-59B0-EDEEFFE68DC5" name="menadzer">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>C831B55F-DCE6-1416-CF36-91FE39CA0244</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr" id="B5731398-9322-40FB-0F93-3E294D887086">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>1956219E-7B53-3711-959E-76EC771BEE86</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="008930C7-4E5A-C127-3429-682D774D7208" referredColumn="51775BFF-DD54-A58D-08AC-33E6767AF61E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AC43C7F-0380-6BC4-853A-F57FE939D91B" name="menadzer_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>388C7BEE-12E8-9C1A-2CA4-8F8D22B08701</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5731398-9322-40FB-0F93-3E294D887086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9032700-12A8-09CE-B924-5560F6A1BB42" name="menadzer_PKv1">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>9889683A-68CF-1E1A-1D61-DFAAAE62420D</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5731398-9322-40FB-0F93-3E294D887086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F6C9476-57EC-1B2B-A903-80CC555AD6A4" name="menadzer_radnik_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>63460E83-8283-3E47-C708-1236B50C1C2C</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5731398-9322-40FB-0F93-3E294D887086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

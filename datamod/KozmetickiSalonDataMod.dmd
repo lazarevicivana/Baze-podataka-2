@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KozmetickiSalonDataMod" id="5BBC1EFC-3381-9C75-78E1-53804799195A" version="3.5">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:02:33 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5BBC1EFC-3381-9C75-78E1-53804799195A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3A7A594E-34A9-BB38-3586-050E09D24C64">
+<designStoragePath>C:\SkriptaZaGenerisanjeTabela</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

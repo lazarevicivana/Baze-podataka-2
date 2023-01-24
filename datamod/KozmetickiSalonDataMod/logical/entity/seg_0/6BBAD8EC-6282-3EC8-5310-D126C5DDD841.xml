@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BBAD8EC-6282-3EC8-5310-D126C5DDD841" name="nudi">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:32:05 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mbf" id="6C3955C2-A010-865A-86DC-C84F84022207">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:32:23 UTC</createdTime>
+<generatorID>BBF75645-F107-0EB2-5BB3-D7CEE99B2F1B</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<referedAttribute>F9849B83-2049-A325-8310-3376449604DE</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="7C8E10E5-2D4B-11A8-834F-9D8BFB420EB6">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:32:55 UTC</createdTime>
+<generatorID>F967E7DD-C1A5-1A59-1F83-CA352C34D771</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<referedAttribute>B1B2E9FA-33ED-B097-3232-A8C23BC16B4E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3C74329-3B14-9D4A-21C8-DFC23E673118" name="nudi PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:32:44 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C3955C2-A010-865A-86DC-C84F84022207</attributeRef>
+<attributeRef>7C8E10E5-2D4B-11A8-834F-9D8BFB420EB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

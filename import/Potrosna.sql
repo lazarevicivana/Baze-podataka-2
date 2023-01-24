@@ -1,0 +1,9 @@
+insert into potrosna (id) values (1);
+insert into potrosna (id) values (2);
+insert into potrosna (id) values (3);
+insert into potrosna (id) values (4);
+insert into potrosna (id) values (5);
+insert into potrosna (id) values (9);
+insert into potrosna (id) values (10);
+insert into potrosna (id) values (11);
+insert into potrosna (id) values (12);

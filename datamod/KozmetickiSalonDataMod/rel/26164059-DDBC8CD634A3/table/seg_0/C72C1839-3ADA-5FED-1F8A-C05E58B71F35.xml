@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C72C1839-3ADA-5FED-1F8A-C05E58B71F35" name="trosi">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="potrosna_id" id="65C0F129-121B-C7FA-3460-13890516C6E6">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AED90CF-1E96-D17C-C710-EE25E72266E6" referredColumn="12952D2B-42AC-0067-4CEE-7538E7FFC18D"/>
+</associations>
+</Column>
+<Column name="termin_id" id="89A2362B-F98E-9D7A-BA77-2BC0C55F51BC">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5655297-8578-8EBF-3DE6-50DD1BC8009A" referredColumn="D4BD068C-E7E7-C873-3B5A-50E4B9FB5EDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1265D662-B5E4-252B-81FA-CECF85FDF72C" name="trosi_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65C0F129-121B-C7FA-3460-13890516C6E6"/>
+<colUsage columnID="89A2362B-F98E-9D7A-BA77-2BC0C55F51BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62589873-F464-F2A8-4424-F93D622523C0" name="trosi_potrosna_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>0E6C56A7-83B9-6432-E640-A103A63EB1F2</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65C0F129-121B-C7FA-3460-13890516C6E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56685EC2-1E13-B83A-981E-6A4E8B049012" name="trosi_termin_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>0E6C56A7-83B9-6432-E640-A103A63EB1F2</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A2362B-F98E-9D7A-BA77-2BC0C55F51BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

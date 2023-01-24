@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3EB4A64-B229-9F06-221C-63D3A423EB96" containerWithKeyObject="A6D6D708-AB72-065F-1253-A96155044B07" localFKIndex="EEBE6E22-4688-0FFD-93A0-6D0DF14CE08E" name="obavlja_nudi_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>C8C21AD7-A6CC-F7CD-A73A-A2417459DF63</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<referredTableLongName>nudi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64FE3B0B-E0B5-6F0D-CA44-E0FD2347867E</referredTableID>
+<keyObject>22AAA839-D967-EFDA-6877-9C28DCED45B1</keyObject>
+<referredKeyID>22AAA839-D967-EFDA-6877-9C28DCED45B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mbf,usluga_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

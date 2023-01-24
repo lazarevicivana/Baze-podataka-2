@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obavljaKozmeticar" directorySegmentName="seg_0" id="C1C7AB8C-0B23-C7F7-3142-970E1BA89F11">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:14:53 UTC</createdTime>
+<generatorID>D07CFF18-817C-B3B3-C350-ED8544EEFF7F</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<engineerTo>
+<item key="26164059-9544-3340-B7BA-DDBC8CD634A3" value="true"/>
+</engineerTo>
+<sourcePk>66A50CB7-00A9-4999-001C-85DE1527E51D</sourcePk>
+<targetPk>B1EA0B4A-EDD6-3D44-6108-564B0779D7A0</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59119BF3-F3AB-1CDB-BCE1-DACD62E8A15E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0F4CB2A-C026-4402-E1A5-81183FAAC7EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

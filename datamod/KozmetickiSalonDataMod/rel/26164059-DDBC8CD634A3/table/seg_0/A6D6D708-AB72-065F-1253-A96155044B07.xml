@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6D6D708-AB72-065F-1253-A96155044B07" name="obavlja">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>D0F4CB2A-C026-4402-E1A5-81183FAAC7EB</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbf" id="50A96A25-3176-8E23-771D-B6102E033040">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>60026889-3127-E834-E0F7-FEAAA6253653</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3EB4A64-B229-9F06-221C-63D3A423EB96" referredColumn="D967C78D-CC1A-4A91-C7B8-AD922BA1D659"/>
+</associations>
+</Column>
+<Column name="usluga_id" id="D43510A7-7232-7413-88BE-8CB75E7BDD9F">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>8DB10357-99B3-F73A-6562-09BBCA36DA66</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3EB4A64-B229-9F06-221C-63D3A423EB96" referredColumn="C7122F13-2587-F7D6-1299-45284F1B99C7"/>
+</associations>
+</Column>
+<Column name="kozmeticar_mbr" id="6825316E-909A-59B6-F1D1-548B49190A15">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 21:06:58 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41D0076C-E308-6C38-A32C-9E2242634754" referredColumn="78C38748-D57B-B90D-9883-778E6A3A9CFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04DCC21F-873A-B4AA-7BDC-45EDBC110364" name="obavlja_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>B1EA0B4A-EDD6-3D44-6108-564B0779D7A0</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50A96A25-3176-8E23-771D-B6102E033040"/>
+<colUsage columnID="D43510A7-7232-7413-88BE-8CB75E7BDD9F"/>
+<colUsage columnID="6825316E-909A-59B6-F1D1-548B49190A15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEBE6E22-4688-0FFD-93A0-6D0DF14CE08E" name="obavlja_nudi_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>C8C21AD7-A6CC-F7CD-A73A-A2417459DF63</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50A96A25-3176-8E23-771D-B6102E033040"/>
+<colUsage columnID="D43510A7-7232-7413-88BE-8CB75E7BDD9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFC72D2B-7424-1C42-C4EA-69A493A77912" name="obavlja_kozmeticar_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 21:05:59 UTC</createdTime>
+<generatorID>C1C7AB8C-0B23-C7F7-3142-970E1BA89F11</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6825316E-909A-59B6-F1D1-548B49190A15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

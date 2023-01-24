@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3FE5FE4-D3E8-71A1-30AE-DC227350CB8E" name="kurs">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="drziKurs" id="0BAF7216-3F08-FE49-9AB6-607C672ECC93">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D53A3C4B-01A7-5DB5-B940-030A3B7E6DD1" referredColumn="78C38748-D57B-B90D-9883-778E6A3A9CFE"/>
+</associations>
+</Column>
+<Column name="pohadjaKurs" id="29F865F1-BD9A-6774-F2B6-7DD7ABC5460C">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E88C694-6BD6-BE79-51DC-48E0558D5A89" referredColumn="78C38748-D57B-B90D-9883-778E6A3A9CFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B11884A2-C879-2E8D-2ABE-225B955C35B8" name="kurs_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BAF7216-3F08-FE49-9AB6-607C672ECC93"/>
+<colUsage columnID="29F865F1-BD9A-6774-F2B6-7DD7ABC5460C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC8283CB-72ED-AC2E-21EF-FAB09D28CB25" name="kurs_kozmeticar_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>ADCB1552-FCC2-BEA0-2D44-044783FF99CE</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BAF7216-3F08-FE49-9AB6-607C672ECC93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="859E5BF4-46B4-69BA-71DB-E3DF924079EE" name="kurs_kozmeticar_FKv1">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>ADCB1552-FCC2-BEA0-2D44-044783FF99CE</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29F865F1-BD9A-6774-F2B6-7DD7ABC5460C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

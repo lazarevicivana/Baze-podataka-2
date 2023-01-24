@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64FE3B0B-E0B5-6F0D-CA44-E0FD2347867E" name="nudi">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>6BBAD8EC-6282-3EC8-5310-D126C5DDD841</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbf" id="D967C78D-CC1A-4A91-C7B8-AD922BA1D659">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>6C3955C2-A010-865A-86DC-C84F84022207</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D046632-E187-F41F-F5A2-FF0DFD8CFCD7" referredColumn="A2D16EC0-452C-8D2C-4772-7EFD2CC01501"/>
+</associations>
+</Column>
+<Column name="usluga_id" id="C7122F13-2587-F7D6-1299-45284F1B99C7">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>7C8E10E5-2D4B-11A8-834F-9D8BFB420EB6</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF858036-2B4A-CCBC-3D39-FB28BC4C5F23" referredColumn="0A96B3CB-1A29-59AE-74DB-348CA9270CC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22AAA839-D967-EFDA-6877-9C28DCED45B1" name="nudi_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>E3C74329-3B14-9D4A-21C8-DFC23E673118</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D967C78D-CC1A-4A91-C7B8-AD922BA1D659"/>
+<colUsage columnID="C7122F13-2587-F7D6-1299-45284F1B99C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1C4B534-7B75-76A6-D541-9770A7F3B6FD" name="nudi_kozmeticki_salon_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>BBF75645-F107-0EB2-5BB3-D7CEE99B2F1B</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D967C78D-CC1A-4A91-C7B8-AD922BA1D659"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="839ADE4F-1094-46CE-6053-EC3EE7FD41FA" name="nudi_usluga_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>F967E7DD-C1A5-1A59-1F83-CA352C34D771</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7122F13-2587-F7D6-1299-45284F1B99C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

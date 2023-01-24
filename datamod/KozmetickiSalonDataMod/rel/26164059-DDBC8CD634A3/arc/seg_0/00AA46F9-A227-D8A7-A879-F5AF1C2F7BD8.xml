@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="00AA46F9-A227-D8A7-A879-F5AF1C2F7BD8" name="FKArc_1">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>08B7697B-81FD-A3CC-BF8D-7AD5493D3713</table>
+<discriminatorColumn>6A5FF41E-8DA6-1E6A-A217-898D09581F5E</discriminatorColumn>
+<fkeys>
+<fkeyID>39339DA6-6879-F182-245C-7796B45F9CE1</fkeyID>
+<fkeyID>A06183E5-2DE0-1559-12D9-E0EBD7D91022</fkeyID>
+</fkeys>
+</FKArc>

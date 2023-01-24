@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="413EDE50-ACFD-D52E-E020-052EFAE670DC" name="imaLicencu">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbf" id="9C79214B-995E-9302-B73B-6FB71E6AC08C">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0193F4FA-447C-E136-EEDE-BC2CC22769B5" referredColumn="50A96A25-3176-8E23-771D-B6102E033040"/>
+</associations>
+</Column>
+<Column name="usluga_id" id="98314794-7DBA-8D49-8869-6D63FF7A9DEE">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0193F4FA-447C-E136-EEDE-BC2CC22769B5" referredColumn="D43510A7-7232-7413-88BE-8CB75E7BDD9F"/>
+</associations>
+</Column>
+<Column name="licenca_id" id="27D590AB-FF5C-FB8A-4576-15D50006A613">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>20B8C482-C5CF-3870-A5E8-60FE3B337568</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DC50F1B-8965-5C69-CA4C-FBB82A686372" referredColumn="3E5B9B87-5C23-2C00-53D9-BAC0D18CB707"/>
+</associations>
+</Column>
+<Column name="kozmeticar_mbr" id="AFA31003-1035-8C35-03AF-8734512304F2">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 21:07:21 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0193F4FA-447C-E136-EEDE-BC2CC22769B5" referredColumn="6825316E-909A-59B6-F1D1-548B49190A15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A46B878D-E5DD-16EE-121E-CA53C730954B" name="imaLicencu_PK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C79214B-995E-9302-B73B-6FB71E6AC08C"/>
+<colUsage columnID="98314794-7DBA-8D49-8869-6D63FF7A9DEE"/>
+<colUsage columnID="27D590AB-FF5C-FB8A-4576-15D50006A613"/>
+<colUsage columnID="AFA31003-1035-8C35-03AF-8734512304F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE6A3306-E8FD-A7C4-0A30-E23CC4BCCE67" name="imaLicencu_obavlja_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>014AB844-7582-BEA2-5046-6695B3EB2A55</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C79214B-995E-9302-B73B-6FB71E6AC08C"/>
+<colUsage columnID="98314794-7DBA-8D49-8869-6D63FF7A9DEE"/>
+<colUsage columnID="AFA31003-1035-8C35-03AF-8734512304F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="828BB70C-5453-5BC4-1A45-6E19B5A7F2AA" name="imaLicencu_licenca_FK">
+<createdBy>Ivana</createdBy>
+<createdTime>2023-01-24 20:50:57 UTC</createdTime>
+<generatorID>014AB844-7582-BEA2-5046-6695B3EB2A55</generatorID>
+<ownerDesignName>KozmetickiSalonDataMod</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27D590AB-FF5C-FB8A-4576-15D50006A613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
